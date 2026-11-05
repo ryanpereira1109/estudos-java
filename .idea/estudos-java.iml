@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/fundamentos-logica/CalculoMedia" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/fundamentos-logica/GerenciadorTarefas" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/fundamentos-logica/SimuladorCaixa" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/orientacao-a-objetos/Banco" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
