@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/fundamentos-logica/SimuladorCaixa" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/orientacao-a-objetos/Banco" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/orientacao-a-objetos/ControleDeEstoque" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/orientacao-a-objetos/AssistenciaTecnica" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
