@@ -51,9 +51,10 @@ public class Banco {
     }
 
     private static void exibirCabecalho() {
-        System.out.println("=======================================");
-        System.out.println("         SISTEMA BANCÁRIO JAVA         ");
-        System.out.println("=======================================");
+        System.out.println("==========================");
+        System.out.println("--------- BANCO ----------");
+        System.out.println("==========================");
+
     }
 
     private static void exibirMenu() {

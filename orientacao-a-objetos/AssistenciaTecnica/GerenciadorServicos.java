@@ -31,7 +31,7 @@ public class GerenciadorServicos {
     public void atualizarStatus (int id , String status) {
         Servico s = buscarPorId(id);
         if (s == null) {
-            System.out.println("\n>>> Produto com OS " + id + " não encontrado.");
+            System.out.println("\n>>> Serviço com OS " + id + " não encontrado.");
             return;
         }
         s.setStatus(status);
@@ -63,5 +63,24 @@ public class GerenciadorServicos {
 
 
         }
+
     }
+
+    public void entregarServico (int id) {
+        Servico s = buscarPorId(id);
+
+        if (s == null) {
+            System.out.println("\n>>> Serviço com OS " + id + " não encontrado.");
+            return;
+        }
+        s.setStatus("ENTREGUE");
+        System.out.println("Serviço de ID: " + id+ " entregue");
+        System.out.println("Nome do aparelho: " + s.getModeloAparelho());
+        System.out.println("Descrição: " + s.getDescricao());
+        System.out.println("Valor total: " + s.getValorServico());
+        System.out.println("O pedido foi finalizado.");
+
+
+    }
+
 }
